@@ -21,9 +21,9 @@ public WebElement getOrglink() {
 }
 
 @FindBy(linkText="Products")
-private WebElement productlink;
+private WebElement productslink;
 public WebElement getProductslink() {
-	return productlink;
+	return productslink;
 }
 
 @FindBy(linkText="Contacts")

@@ -20,6 +20,12 @@ public WebElement getOrglink() {
 	return orglink;
 }
 
+@FindBy(linkText="Products")
+private WebElement productlink;
+public WebElement getProductslink() {
+	return productlink;
+}
+
 @FindBy(linkText="Contacts")
 private WebElement contactlink;
 public WebElement getContactlink() {
